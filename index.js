@@ -4,7 +4,8 @@ const cors = require("cors");
 
 const io = require("socket.io")(server, {
     cors: {
-        origin: "*",
+        // origin: "*",
+        origin: "https://elegant-parfait-f06c7b.netlify.app/",
         methods: ["GET", "POST"]
     }
 });
